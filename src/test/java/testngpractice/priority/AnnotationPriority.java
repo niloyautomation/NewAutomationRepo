@@ -51,6 +51,7 @@ public class AnnotationPriority {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\NILOY\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();  //Chrome driver object
         driver.get("https://www.myntra.com/");
+        System.out.println("Hello");
         driver.close();
     }
 }
