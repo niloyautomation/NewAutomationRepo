@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" parallel="true" thread-count="4" name="C:/Users/NILOY/IdeaProjects/MavenProject">
+        <classes>
+            <class name="testngpractice.parallelexecution.ParallelExecution">
+            </class>
+        </classes>
+    </test>
+</suite>
